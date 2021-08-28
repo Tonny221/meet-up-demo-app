@@ -1,7 +1,7 @@
-function AllMeetUpsPage(){
+function AllMeetupsPage(){
     return (
         <div>All meet ups page</div>
     );
 }
 
-export default AllMeetUpsPage;
+export default AllMeetupsPage;
