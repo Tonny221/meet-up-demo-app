@@ -1,5 +1,5 @@
-function NewMeetUpsPage(){
+function NewMeetUpPage(){
 
 }
 
-export default NewMeetUpsPage;
+export default NewMeetUpPage;
