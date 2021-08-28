@@ -1,0 +1,17 @@
+.meetup_item{
+    width: 40%;
+    margin: 1rem auto;
+    border: 3px solid #071301;
+}
+
+.meetup_img img{
+    width: 100%;
+}
+
+.data{
+    padding: 0.5rem;
+}
+
+.button{
+    padding: 0.5rem;
+}

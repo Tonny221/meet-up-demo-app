@@ -21,9 +21,9 @@ function AllMeetupsPage() {
     return (
         <section>
             <h1>Cool cities</h1>
-            <ul>
-                <MeetupList meetups={DUMMY_DATA} />
-            </ul>
+            
+            <MeetupList meetups={DUMMY_DATA} />
+            
         </section>
     );
 }
