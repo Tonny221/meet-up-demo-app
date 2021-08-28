@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #3A7E55;
+    color: white;
+}
+
+.nav_list{
+    display: flex;
+    column-gap: 1rem;
+    list-style: none;
+}
+
+.nav_list_item{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+.nav_list_item:hover{
+    color: #BDDBCF;
+}
