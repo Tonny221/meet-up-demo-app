@@ -1,0 +1,25 @@
+.card{
+    width: 40%;
+    margin: 1rem auto;
+    border: 3px solid #071301;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card button{
+    border: 3px solid #2EF514;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.2s;
+    background: none;   
+    font-size: 0.893rem;
+    font-weight: 700;
+}
+
+.card button:hover{
+    background-color: #2EF514;
+    color: white;
+}

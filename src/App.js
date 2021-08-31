@@ -3,12 +3,12 @@ import { Route, Switch } from 'react-router-dom'
 import AllMeetupsPage from './pages/allMeetUps';
 import FavoritesPage from './pages/favorites';
 import NewMeetupPage from './pages/newMeetUp';
-import MainNavigation from './components/layout/mainNavigation';
+import Layout from './components/layout/Layout'
+
 
 function App() {
   return (
-    <div>
-      <MainNavigation />
+    <Layout>
       <Switch>
         <Route path='/' exact>
           <AllMeetupsPage />
@@ -20,7 +20,7 @@ function App() {
           <FavoritesPage />
         </Route>
       </Switch>
-    </div>
+    </Layout>
   );
 }
 
