@@ -14,13 +14,13 @@ export function FavoritesContextProvider(props){
     function addFavoriteHandler(favoriteMeetup){
         setUserFavorites((prevUserFavorite) => {
             return prevUserFavorite.concat(favoriteMeetup);
-        })
+        });
     }
 
     function removeFavoriteHandler(meetupId){
-        setUserFavorites((prevUserFavorite) => {
-            return prevUserFavorite.filter(meetupId => meetup.id !== meetupId);
-        })
+        setUserFavorites(prevUserFavorite => {
+            return prevUserFavorite.filter(meetup => meetup.id !== meetupId);
+        });
     }
 
     function itemIsFavoriteHandler(meetupId){
